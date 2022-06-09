@@ -1,0 +1,64 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding:0%;
+    overflow-x: hidden;
+    
+}
+li {
+    display:inline;
+    font-family: muli;
+    background-color: white;
+    font-size: 15px;
+    text-decoration: none;
+   
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+  li a{
+    color: #da4850;
+    text-decoration: none;
+    letter-spacing: 5px;
+    word-spacing: 50px;
+}
+
+.about{
+    display: grid;
+    place-content: center;
+    height: 50vh;
+}
+
+h1{
+    display: grid;
+    place-content: center;
+    height: 1vh;
+    font-size: 60px;
+    font-family: peace sans;
+}
+
+p{
+    display: grid;
+    place-content: center;
+    height: 5vh;
+    font-size: 20px;
+    font-family: muli;
+    
+}
+
+.icons{
+    display: grid;
+    place-content: center;
+    size: 100px;
+}
+
+.know{
+    position: relative;
+    bottom: -150px;
+    font-size: 240px;
+}
